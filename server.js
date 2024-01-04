@@ -34,7 +34,7 @@ async function verifyPassword(password, hashedPassword) {
 }
 
 app.get('/', (req, res) => {
-    res.send('Hello, Express!');
+    res.send('Hello, User!');
 });
 
 app.post('/sign', async (req, res) => {
